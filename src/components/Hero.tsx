@@ -21,8 +21,9 @@ function Hero() {
           </h2>
 
           <p className="mt-6 max-w-xl text-base leading-relaxed text-gray-400 sm:text-lg">
-            I enjoy building clean, scalable software and solving complex
-            problems through thoughtful architecture and technology.
+            I enjoy turning creative ideas into software, building useful
+            applications, and continuously finding ways to improve what I
+            create.
           </p>
 
           {/* Buttons */}
@@ -45,21 +46,27 @@ function Hero() {
           {/* Social links */}
           <div className="mt-8 flex flex-wrap gap-5 text-sm text-gray-400">
             <a
-              href="#"
+              href="https://github.com/Melody931"
+              target="_blank"
+              rel="noopener noreferrer"
               className="transition-colors duration-200 hover:text-white"
             >
               GitHub
             </a>
 
             <a
-              href="#"
+              href="https://www.linkedin.com/in/javier-chevalier-5188a4402/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="transition-colors duration-200 hover:text-white"
             >
               LinkedIn
             </a>
 
             <a
-              href="#"
+             href="https://mail.google.com/mail/?view=cm&fs=1&to=javierchevalier241@gmail.com"
+             target="_blank"
+             rel="noopener noreferrer"
               className="transition-colors duration-200 hover:text-white"
             >
               Email
@@ -166,3 +173,4 @@ function Hero() {
 }
 
 export default Hero
+

@@ -1,3 +1,4 @@
+
 interface ContactMethod {
   name: string
   description: string
@@ -8,17 +9,17 @@ const contactMethods: ContactMethod[] = [
   {
     name: 'Email',
     description: 'Best for direct communication.',
-    href: '#',
+    href: 'https://mail.google.com/mail/?view=cm&fs=1&to=javierchevalier241@gmail.com',
   },
   {
     name: 'LinkedIn',
     description: 'Connect professionally.',
-    href: '#',
+    href: 'https://www.linkedin.com/in/javier-chevalier-5188a4402/',
   },
   {
     name: 'GitHub',
     description: 'Explore my work.',
-    href: '#',
+    href: 'https://github.com/Melody931',
   },
 ]
 
@@ -57,6 +58,8 @@ function Contact() {
             <a
               key={method.name}
               href={method.href}
+              target="_blank"
+              rel="noopener noreferrer"
               className="group rounded-2xl border border-white/10 bg-white/[0.03] p-6 transition duration-200 hover:-translate-y-1 hover:border-[#8B5CF6]/30 hover:bg-white/[0.05]"
             >
 

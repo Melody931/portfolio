@@ -1,4 +1,3 @@
-
 interface Project {
   name: string
   description: string
@@ -162,6 +161,8 @@ function ProjectCard({ project }: ProjectCardProps) {
           {project.github && (
             <a
               href={project.github}
+              target="_blank"
+              rel="noopener noreferrer"
               className="rounded-lg border border-white/10 px-4 py-2 text-sm text-gray-300 transition hover:border-[#8B5CF6]/40 hover:text-white"
             >
               GitHub
@@ -171,6 +172,8 @@ function ProjectCard({ project }: ProjectCardProps) {
           {project.demo && (
             <a
               href={project.demo}
+              target="_blank"
+              rel="noopener noreferrer"
               className="rounded-lg bg-[#8B5CF6] px-4 py-2 text-sm font-medium text-white transition hover:bg-[#7C3AED]"
             >
               Live Demo
