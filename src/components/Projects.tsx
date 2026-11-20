@@ -18,18 +18,7 @@ interface Project {
 }
 
 const projects: Project[] = [
-  {
-    name: 'Herta',
-    description:
-      'A personal programming assistant designed to improve my development workflow and make the process more efficient.',
-    type: 'Development Assistant',
-    technologies: ['Python'],
-    status: 'In Development',
-    github: null,
-    demo: null,
-    image: null,
-    preview: 'terminal',
-  },
+  
   {
     name: 'Study AI',
     description:

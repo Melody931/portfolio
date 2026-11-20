@@ -153,7 +153,7 @@ function Hero() {
 
                 {'    '}
                 <span className="text-[#C4B5FD]">return</span>{' '}
-                <span className="text-green-300">"Herta"</span>
+                <span className="text-green-300">"Ideas into software"</span>
                 <span className="text-gray-400">;</span>
                 {'\n'}
 
