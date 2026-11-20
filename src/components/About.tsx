@@ -49,16 +49,15 @@ function About() {
               cleaner, more efficient, and more enjoyable to use.
             </p>
 
-            {/* Herta */}
+            {/* Personal assistant */}
             <div className="mt-8 border-l border-[#8B5CF6]/50 pl-5">
               <p className="text-sm font-medium text-white">
-                Currently building Herta
+                Currently developing a personal assistant
               </p>
 
               <p className="mt-2 text-sm leading-relaxed text-gray-500">
-                A personal system I am developing to assist my programming
-                workflow and make parts of the development process more
-                efficient.
+                A personal project currently in development. More details will
+                be shared as it takes shape.
               </p>
             </div>
           </div>
@@ -106,7 +105,7 @@ function About() {
               </p>
 
               <p className="mt-2 text-lg font-semibold text-white">
-                Herta
+                Personal Assistant
               </p>
             </div>
 
@@ -119,4 +118,3 @@ function About() {
 }
 
 export default About
-
