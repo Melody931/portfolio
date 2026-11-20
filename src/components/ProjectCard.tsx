@@ -21,7 +21,7 @@ function ProjectCard({ project }: ProjectCardProps) {
       {/* Project preview */}
       <div className="relative aspect-video overflow-hidden bg-black/20">
 
-        {/* HERTA TERMINAL */}
+        {/* PERSONAL ASSISTANT TERMINAL */}
         {project.preview === 'terminal' && (
           <div className="flex h-full items-center justify-center bg-[#080B14] px-4">
             <div className="w-[90%] overflow-hidden rounded-xl border border-white/10 bg-[#0D111C] shadow-2xl shadow-[#8B5CF6]/10">
@@ -33,7 +33,7 @@ function ProjectCard({ project }: ProjectCardProps) {
                 <span className="h-2.5 w-2.5 rounded-full bg-white/20" />
 
                 <span className="ml-3 text-[10px] text-gray-600">
-                  herta — development assistant
+                  personal assistant — development
                 </span>
               </div>
 
@@ -42,43 +42,42 @@ function ProjectCard({ project }: ProjectCardProps) {
 
                 <p className="text-gray-500">
                   <span className="text-[#8B5CF6]">&gt;</span>{' '}
-                  herta analyze src/auth.py
+                  assistant status
                 </p>
 
                 <p className="text-gray-500">
-                  Scanning workspace...
+                  Preparing workspace...
                 </p>
 
                 <p className="text-gray-300">
                   <span className="text-[#8B5CF6]">✓</span>{' '}
-                  47 files indexed
+                  Assistant initialized
                 </p>
 
                 <p className="text-gray-400">
-                  Found issue in{' '}
-                  <span className="text-gray-300">auth.py:42</span>
+                  Loading core modules...
                 </p>
 
                 <p className="pl-4 text-gray-600">
-                  └─ Unhandled exception
+                  └─ Setup in progress
                 </p>
 
                 <p className="text-gray-500">
-                  Applying fix...
+                  Checking system status...
                 </p>
 
                 <p className="text-gray-300">
                   <span className="text-[#8B5CF6]">✓</span>{' '}
-                  Exception handling added
+                  All systems operational
                 </p>
 
                 <p className="text-gray-500">
-                  Running tests...
+                  Finalizing startup...
                 </p>
 
                 <p className="text-gray-300">
                   <span className="text-[#8B5CF6]">✓</span>{' '}
-                  18/18 tests passed
+                  Ready
                 </p>
 
                 <p className="text-gray-400">
